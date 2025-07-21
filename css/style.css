@@ -73,3 +73,134 @@ footer {
     padding: 15px 10px;
     margin-top: 20px;
 }
+
+#contacto h3 {
+  text-align: center;
+  color: #004080;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+
+.formulario-contacto {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.campo-formulario {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.campo-formulario label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: blue;
+}
+
+.campo-formulario input,
+.campo-formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.campo-formulario input:focus,
+.campo-formulario textarea:focus {
+  border-color: #d35400;
+  outline: none;
+  box-shadow: 0 0 5px rgba(211, 84, 0, 0.3);
+}
+
+.formulario-contacto button[type="submit"] {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; 
+  transition: background-color 0.3s ease;
+}
+
+.formulario-contacto button[type="submit"]:hover {
+  background-color: #004080;
+}
+
+.imagen-wrapper{
+    text-align: center;
+}
+
+
+/* Encabezado del Menú */
+.menu h1,
+.menu h2,
+.menu h3 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 20px;
+}
+
+/* Tabla general */
+.menu table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado de la tabla */
+.menu thead {
+  background-color: #0066cc;
+  color: white;
+}
+
+.menu thead th {
+  padding: 12px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #004080;
+}
+
+/* Celdas */
+.menu tbody td {
+  padding: 12px;
+  text-align: center;
+  font-size: 1rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Filas intercaladas */
+.menu tbody tr:nth-child(even) {
+  background-color: #e6f0ff;
+}
+
+/* Hover para filas */
+.menu tbody tr:hover {
+  background-color: #d9ecff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Precio más destacado */
+.menu tbody td:last-child {
+  color: #d35400;
+  font-weight: bold;
+}
+
+.title{
+    text-align: center;
+}
